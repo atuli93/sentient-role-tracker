@@ -23,12 +23,8 @@ sentient-role-tracker/
 │ └── deploy.js 
 ├── test/ │ └── RoleTracker.test.ts 
 ├── hardhat.config.ts 
-├── package.json 
----
-
+├── package.json
 ```
-
----
 
 ## 🧠 Smart Contract Overview
 
