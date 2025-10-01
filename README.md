@@ -1,10 +1,10 @@
-# 🛠 Sentient Role Tracker (Solidity + Hardhat 3)
+# Sentient Role Tracker (Solidity + Hardhat 3)
 
 A modular smart contract that logs AGI role upgrades (Builder L1 → L2 → L3) along with metadata like Discord handle, GitHub repo, tweet URL, and timestamp. Built for remixability, leaderboard tracking, and Builder drops in Sentient Discord.
 
 ---
 
-## 🚀 Features
+## Features
 
 - Logs AGI role upgrades on-chain  
 - Stores Discord, GitHub, tweet, role, and timestamp  
@@ -14,7 +14,7 @@ A modular smart contract that logs AGI role upgrades (Builder L1 → L2 → L3) 
 
 ---
 
-## 📁 Project Structure
+## Project Structure
 ```bash
 sentient-role-tracker/ 
 ├── contracts/ 
@@ -26,7 +26,7 @@ sentient-role-tracker/
 ├── package.json
 ```
 
-## 🧠 Smart Contract Overview
+## Smart Contract Overview
 
 ```bash
 solidity
@@ -40,7 +40,7 @@ function getRoles(address user) public view returns (RoleEntry[] memory)
 
 ---
 
-# 🛠 Setup (WSL Compatible)
+# Setup (WSL Compatible)
 ## 1. Clone the Repo
 ```bash
 git clone https://github.com/atuli93/sentient-role-tracker.git
@@ -62,7 +62,7 @@ npx hardhat compile
 npx hardhat test
 ```
 
-# 🧪 Sample Test Case
+# Sample Test Case
 ```bash
 await tracker.logRoleUpgrade(
   "AtulChief.ink.base.eth",
@@ -72,10 +72,10 @@ await tracker.logRoleUpgrade(
 );
 ```
 
-# 📜 License
+# License
 ## MIT License
 
-# 📝 Notes
+# Notes
 -Compatible with Hardhat 3 and ESM
 
 -Tested on WSL (Ubuntu)
