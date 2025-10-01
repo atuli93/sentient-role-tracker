@@ -81,8 +81,11 @@ await tracker.logRoleUpgrade(
 
 # 📝 Notes
 -Compatible with Hardhat 3 and ESM
+
 -Tested on WSL (Ubuntu)
+
 -Add ```.gitignore``` to exclude ```.env```, ```node_modules```, and ```artifacts```
+
 -Extendable for multi-agent tracking or leaderboard logic
 
 
